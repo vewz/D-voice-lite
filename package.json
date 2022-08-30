@@ -1,0 +1,25 @@
+{
+  "name": "d-voice-lite",
+  "version": "0.1.6",
+  "description": "Implementation of the Discord Voice API for node.js",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write *.js *.ts"
+  },
+  "keywords": [
+    "discord",
+    "audio",
+    "voice",
+    "streaming"
+  ],
+  "author": "kage-sakura",
+  "license": "MIT",
+  "devDependencies": {
+    "discord.js": "^13.8.1",
+    "ffmpeg-static": "^4.4.1",
+    "eslint-config-windward": "^0.1.21",
+    "opusscript": "^0.0.8",
+    "prism-media": "^1.2.9",
+    "tweetnacl": "^1.0.3"
+  }
+}

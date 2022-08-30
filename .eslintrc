@@ -1,0 +1,21 @@
+{
+  "extends": ["windward"],
+  "env": {
+    "node": true,
+    "es2021": true,
+    "commonjs": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "comma-dangle": "error",
+    "object-curly-spacing": ["error", "always"],
+    "semi": "error",
+    "semi-spacing": "error",
+    "semi-style": "error",
+    "no-constant-binary-expression": "off",
+    "dot-notation": "off",
+    "camelcase": "off"
+  }
+}
